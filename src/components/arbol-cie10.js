@@ -95,8 +95,8 @@ export function ArbolCie10() {
   if (!data?.nodos?.length) {
     return (
       <Alerta tipo="aviso">
-        El catálogo no tiene la estructura por capítulos. Importa <span className="font-mono">docs/codes.json</span>{' '}
-        (catálogo oficial) para ver el árbol.
+        El catálogo no tiene la estructura por capítulos. Importa el catálogo oficial (
+        <span className="font-mono">codes.json</span>) para ver el árbol.
       </Alerta>
     );
   }

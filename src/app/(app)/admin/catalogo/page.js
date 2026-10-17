@@ -197,10 +197,10 @@ export default function CatalogoPage() {
             </form>
             {errorFormulario && <Alerta className="mt-3">{errorFormulario}</Alerta>}
             <p className="mt-3 text-xs text-slate-500">
-              Para el catálogo oficial, sube <span className="font-mono">docs/codes.json</span> (estructura por
-              capítulos) o un archivo con columnas <span className="font-mono">CODIGO</span> y{' '}
+              Para el catálogo oficial, sube el JSON jerárquico (<span className="font-mono">codes.json</span>)
+              o un archivo con columnas <span className="font-mono">CODIGO</span> y{' '}
               <span className="font-mono">DESCRIPCION</span>. También puedes usar{' '}
-              <span className="font-mono">npm run seed:cie10 -- docs/codes.json --limpiar</span>.
+              <span className="font-mono">npm run seed:cie10:oficial</span> (en la API).
             </p>
           </Tarjeta>
 
