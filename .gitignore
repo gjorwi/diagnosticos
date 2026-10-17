@@ -1,0 +1,32 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# Build de Next.js
+.next/
+.next-build/
+out/
+build/
+
+# Pruebas y cobertura
+coverage/
+
+# Variables de entorno (se conserva .env.example)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vercel
+.vercel
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-100 text-slate-800 antialiased;
+}
+
+.tabla-matriz th,
+.tabla-matriz td {
+  @apply border border-slate-300 px-1.5 py-1 text-center whitespace-nowrap;
+}
+
+.tabla-matriz th.pegado,
+.tabla-matriz td.pegado {
+  @apply sticky left-0 z-10 bg-white text-left;
+}
+
+.tabla-matriz td.pegado-codigo {
+  @apply sticky left-0 z-10 bg-white text-left font-medium;
+}
+
+.tabla-matriz td.pegado-enfermedad {
+  @apply sticky left-12 z-10 bg-white text-left;
+}
+
+.tabla-matriz tr:hover td {
+  @apply bg-slate-50;
+}
